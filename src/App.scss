@@ -23,11 +23,17 @@ body {
 		}
 	}
 	.pageDashboard {
-		.employment {
-			width: 450px;
-			border-radius: 20px;
-			object-fit: cover;
-			box-shadow: 1px 1px 5px 3px #fff;
+		.images {
+			display: flex;
+			flex-direction: column;
+			row-gap: 1rem;
+			.employment img,
+			.jobsImg img {
+				width: 450px;
+				border-radius: 20px;
+				object-fit: cover;
+				box-shadow: 1px 1px 5px 3px #fff;
+			}
 		}
 	}
 }

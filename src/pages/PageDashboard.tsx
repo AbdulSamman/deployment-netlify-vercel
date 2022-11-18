@@ -3,9 +3,13 @@ export const PageDashboard = () => {
   return (
     <div className="page pageDashboard">
       <p>This is the Dashboard page.</p>
-      <img className="employment" src={employment} />
-      <div className="jobsImg">
-        <img src="images/jobs.jpg" />
+      <div className="images">
+        <div className="employment">
+          <img src={employment} />
+        </div>
+        <div className="jobsImg">
+          <img src="images/jobs.jpg" />
+        </div>
       </div>
     </div>
   );
