@@ -10,7 +10,7 @@ body {
 
 	nav {
 		background-color: #222;
-		padding: .5rem;
+		padding: 0.5rem;
 
 		a {
 			color: #aaa;
@@ -20,6 +20,14 @@ body {
 
 		a.active {
 			color: rgb(211, 211, 110);
+		}
+	}
+	.pageDashboard {
+		.employment {
+			width: 450px;
+			border-radius: 20px;
+			object-fit: cover;
+			box-shadow: 1px 1px 5px 3px #fff;
 		}
 	}
 }
