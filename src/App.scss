@@ -22,17 +22,40 @@ body {
 			color: rgb(211, 211, 110);
 		}
 	}
+
 	.pageDashboard {
-		.images {
-			display: flex;
-			flex-direction: column;
-			row-gap: 1rem;
-			.employment img,
-			.jobsImg img {
-				width: 450px;
-				border-radius: 20px;
-				object-fit: cover;
-				box-shadow: 1px 1px 5px 3px #fff;
+		img.employment {
+			width: 30rem;
+			box-shadow: 10px 10px 33px #777;
+			border-radius: 1rem;
+		}
+	}
+
+	.pageJobs {
+		.jobSources {
+			.jobSource {
+				display: flex;
+				gap: 0.7rem;
+				margin-bottom: 1.5rem;
+
+				img {
+					width: 6rem;
+				}
+
+				.info {
+					.title {
+						color: black;
+						text-shadow: 1px 1px 10px #ccc;
+						font-size: 2rem;
+					}
+
+					.url {
+						a {
+							color: rgb(217, 217, 103);
+							font-size: 1.4rem;
+						}
+					}
+				}
 			}
 		}
 	}
